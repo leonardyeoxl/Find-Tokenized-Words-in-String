@@ -9,14 +9,20 @@
 
 ### Example Input and Output
 
-Input: asd def qwe "qwerty asd zxcv" asf "tyuip dfhgdj fgh"
-Output: ['asd', 'def', 'qwe', '"qwerty asd zxcv"', 'asf', '"tyuip dfhgdj fgh"']
+#### Example 01
 
-Input: "qwerty asd zxcv"
-Output: ['"qwerty asd zxcv"']
+- Input: asd def qwe "qwerty asd zxcv" asf "tyuip dfhgdj fgh"
+- Output: ['asd', 'def', 'qwe', '"qwerty asd zxcv"', 'asf', '"tyuip dfhgdj fgh"']
 
-Input: asd def qwe
-Output: ['asd', 'def', 'qwe']
+#### Example 02
+
+- Input: "qwerty asd zxcv"
+- Output: ['"qwerty asd zxcv"']
+
+#### Example 03
+
+- Input: asd def qwe
+- Output: ['asd', 'def', 'qwe']
 
 ## Solution
 
